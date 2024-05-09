@@ -1,0 +1,42 @@
+h1 {
+    color:rgb(68, 38, 151);
+    margin:0;
+}
+
+html,
+body,
+div,
+header,
+iframe {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    display:inline-flex;
+    max-height: 4em;
+}
+#hero {
+    background-image: url("img/hero-bg.jpg");
+    background-size:cover;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #101010;
+    background-color: #ffffff;
+}
+
+#hero-portrait {
+    max-height: 5em;
+}
+
