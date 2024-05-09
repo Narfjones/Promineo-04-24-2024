@@ -24,16 +24,19 @@ header {
     display:inline-flex;
     max-height: 4em;
 }
-#hero {
-    background-image: url("img/hero-bg.jpg");
-    background-size:cover;
-    height: auto;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #101010;
-    background-color: #ffffff;
+
+}
+
+hero {
+    display:inline-flex;
+    width:100%;
+    background-image: url("../img/hero-bg.jpg");
+    background-size:cover;
+    position: relative;
 }
 
 #hero-portrait {
