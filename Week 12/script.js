@@ -63,6 +63,7 @@ function renderTable() {
             album: album,
         };
         entries.push(entry);
+
         localStorage.setItem("entries", JSON.stringify(entries));
         artistInput.value = "";
         albumInput.value = "";

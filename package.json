@@ -2,6 +2,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "fs": "^0.0.1-security",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "react-router-dom": "^5.3.4",
+    "react-textfit": "^1.1.1"
   }
 }
